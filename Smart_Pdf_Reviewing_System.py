@@ -148,7 +148,7 @@ class PDFReviewer:
             cursor="hand2"
         )
         self.keep_btn.pack(side="left", padx=5)
-
+        
         self.delete_btn = tk.Button(
             button_frame,
             text="🗑 DELETE",
